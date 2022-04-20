@@ -1,16 +1,16 @@
-from logging import logProcesses
+# From Chapter 2
 import random, sys
 
 print ("Rock", "PAPER", "SCISSORS")
 
 # Theses variable keep track of the wins, loses and ties. 
 wins = 0
-loses = 0
+losses = 0
 ties = 0
 
 # Main game loop
 while True:
-    print('%s Wins, %s Loses, %s Ties' %(wins, loses,ties))
+    print('%s Wins, %s Loses, %s Ties' %(wins, losses,ties))
     while True: # The player input loop.
         print('Enter your move: (r)ock (p)aper (s)cissors or (q)uit')
         playerMove = input()
